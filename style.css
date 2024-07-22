@@ -285,14 +285,14 @@ footer {
     display: flex;
     justify-content: center;
     background-image: url(img/pexels-rpnickson-3082341.jpg);
-    height: 500px;
+    height: auto;
     background-size: cover;
     font-family: monospace;
 }
 
 .text0{
     width: 90%;
-    height: 80%;
+    height: 60%;
     padding: 10px;
     margin-top: 8vh;
     text-align: center;
@@ -394,8 +394,8 @@ footer {
     border-bottom: 1vh solid blue;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     padding-bottom: 1vh;
 }
 
