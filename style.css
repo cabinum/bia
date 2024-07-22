@@ -285,7 +285,7 @@ footer {
     display: flex;
     justify-content: center;
     background-image: url(img/pexels-rpnickson-3082341.jpg);
-    height: auto;
+    height: unset;
     background-size: cover;
     font-family: monospace;
 }
