@@ -299,7 +299,7 @@ footer {
     background-color: rgba(224, 255, 255, 0.329);
     transition: transform 0.9s; /* Ajoute une transition fluide */
     border-top-left-radius: 20vh;
-    border-bottom-right-radius: 20vh;
+    border-bottom-right-radius: 0vh;
 }
 
 .text0:hover{
