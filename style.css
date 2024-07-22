@@ -1,0 +1,498 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*PAGE D'ACCEUIL? */
+.containeru{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/pexels-rpnickson-3082341.jpg);
+    height: 500px;
+    background-size: cover;
+    font-family: cursive;
+}
+
+.text0{
+    width: 40%;
+    height: 70%;
+    padding: 10px;
+    margin-top: 8vh;
+    text-align: center;
+    background-color: rgba(224, 255, 255, 0.329);
+    transition: transform 0.9s; /* Ajoute une transition fluide */
+    border-top-left-radius: 20vh;
+    border-bottom-right-radius: 20vh;
+}
+
+.text0:hover{
+    transform: scale(0.9); /* Agrandissement de 20% */
+}
+
+.text0 h1{
+    color: blue;
+    font-family: cursive;
+    font-size: 60px;
+}
+
+.but a{
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.but a p{
+    background-color: blue;
+    padding: 2vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.but{
+    display: flex;
+    margin: auto;
+    gap: 1vh;
+}
+/*FIN PAGE D'ACCEUIL*/
+
+/*2ème page COL1*/
+
+.col1{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.lo1{
+    display: flex;
+}
+
+.lo img{
+    width: 100%;
+    height: 70%;
+    margin-top: 11vh;
+    border-top-left-radius: 15vh;
+    border-bottom-right-radius: 15vh;
+}
+
+.col1 ul li{
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: monospace;
+}
+
+/*3ème page COL2*/
+.mo img{
+    width: 85%;
+    border-radius: 1500px;
+    transition: transform 0.9s; /* Ajoute une transition fluide */
+}
+
+.mo img:hover{
+    transform: scale(0.20); /* Agrandissement de 20% */
+}
+
+.mos{
+    display: flex;
+    overflow: scroll;
+    gap: 3vh;
+    justify-content: center;
+    padding: 2vh;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.mo{
+    text-align: center;
+    font-family: monospace;
+    background-color: lightcyan;
+    width: 18%;
+    border-top-left-radius: 1500px;
+    border-top-right-radius: 1500px;
+    border-bottom-left-radius: 800px;
+    border-bottom-right-radius: 800px;
+    padding-bottom: 1vh;
+}
+
+.mo h2{
+    color: blue;
+}
+
+/*3ème page COL3*/
+
+.conbord1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bordure1{
+    border-bottom-left-radius: 9vh;
+    border-bottom-right-radius: 9vh;
+    width: 20%;
+    background-color: lightcyan;
+    margin-top: 3vh;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+}
+
+.bordure1:hover{
+    transform: scale(1.05); /* agrandit l'image au survol */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.61); /* ajoute une ombre au survol */
+}
+
+.bordure1 h2{
+    font-family: monospace;
+    text-align: center;
+    border-bottom: 1px solid lightblue;
+    color: blue;
+}
+
+.bordure1 p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 3vh;
+}
+
+.bordure1 img{
+    display: block;
+    width: 100%;
+}
+
+.gr{
+    font-family: monospace;
+    text-align: center;
+    color: blue;
+}
+
+/*4ème page COL4*/
+.col4 p{
+    display: block;
+    margin: auto;
+    width: 80%;
+    font-family: monospace;
+    text-align: justify;
+    line-height: 1.5;
+    color: rgb(8, 2, 34);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.mog img{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.carousel {
+    position: relative;
+    width: 420px; /* Ajustez la largeur selon vos besoins */
+    height: 300px; /* Ajustez la hauteur selon vos besoins */
+    overflow: hidden;
+    margin: 0 auto; /* Centre le carousel horizontalement */
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    text-align: center; /* Centre le contenu dans chaque diapositive */
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 2vh;
+}
+
+.text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    position: absolute;
+    bottom: 15vh; /* Ajustez la marge inférieure selon vos besoins */
+    left: 0;
+    right: 0;
+    text-align: justify;
+}
+
+/*FOOTER*/
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightcyan;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    color: blue;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    color: black;
+}
+
+.footer-section ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin: 0 10px;
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    /*PAGE D'ACCEUIL? */
+.containeru{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/pexels-rpnickson-3082341.jpg);
+    height: 500px;
+    background-size: cover;
+    font-family: monospace;
+}
+
+.text0{
+    width: 90%;
+    height: 80%;
+    padding: 10px;
+    margin-top: 8vh;
+    text-align: center;
+    background-color: rgba(224, 255, 255, 0.329);
+    transition: transform 0.9s; /* Ajoute une transition fluide */
+    border-top-left-radius: 20vh;
+    border-bottom-right-radius: 20vh;
+}
+
+.text0:hover{
+    transform: scale(0.9); /* Agrandissement de 20% */
+}
+
+.text0 h1{
+    color: blue;
+    font-family: monospace;
+    font-size: 60px;
+}
+
+.but a{
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.but a p{
+    background-color: blue;
+    padding: 2vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.but{
+    display: flex;
+    margin: auto;
+    gap: 1vh;
+}
+/*FIN PAGE D'ACCEUIL*/
+
+/*2ème page COL1*/
+
+.col1{
+    display: block;
+    margin: auto;
+    width: 95%;
+}
+
+.lo1{
+    display: block;
+}
+
+.lo img{
+    width: 100%;
+    height: 100%;
+    margin-top: 1vh;
+    border-top-left-radius: 15vh;
+    border-bottom-right-radius: 15vh;
+}
+
+.col1 ul li{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: monospace;
+}
+
+/*3ème page COL2*/
+.mo img{
+    width: 80%;
+    border-radius: 100px;
+    transition: none; /* Ajoute une transition fluide */
+}
+
+.mo img:hover{
+    transform: none; /* Agrandissement de 20% */
+}
+
+.mos{
+    display: block;
+    margin: auto;
+    width: 80%;
+    background-color: lightcyan;
+    height: 300px;
+    overflow-y: scroll;
+    gap: 1vh;
+    justify-content: unset;
+    
+}
+
+.mo{
+    width: 90%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    margin-top: 1vh;
+    background-color: lightcyan;
+    border-bottom: 1vh solid blue;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding-bottom: 1vh;
+}
+
+.mo h2{
+    color: blue;
+}
+
+/*3ème page COL3*/
+
+.conbord1{
+    display: inline-block;
+    justify-content: unsafe;
+    gap: px;
+}
+
+.bordure1{
+    display: block;
+    margin: auto;
+    border-bottom-left-radius: 9vh;
+    border-bottom-right-radius: 9vh;
+    width: 85%;
+    background-color: lightcyan;
+    margin-top: 1vh;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+}
+
+.bordure1:hover{
+    transform: scale(1.05); /* agrandit l'image au survol */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.61); /* ajoute une ombre au survol */
+}
+
+.bordure1 h2{
+    font-family: monospace;
+    text-align: center;
+    border-bottom: 1px solid lightblue;
+    color: blue;
+}
+
+.bordure1 p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 3vh;
+}
+
+.bordure1 img{
+    display: block;
+    width: 100%;
+}
+
+.gr{
+    font-family: monospace;
+    text-align: center;
+    color: blue;
+}
+
+/*4ème page COL4*/
+.col4 p{
+    display: block;
+    margin: auto;
+    width: 80%;
+    font-family: monospace;
+    text-align: justify;
+    line-height: 1.5;
+    color: rgb(8, 2, 34);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mog img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.carousel {
+    position: relative;
+    width: 90%; /* Ajustez la largeur selon vos besoins */
+    height: 400px; /* Ajustez la hauteur selon vos besoins */
+    overflow: hidden;
+    margin: auto; /* Centre le carousel horizontalement */
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    text-align: center; /* Centre le contenu dans chaque diapositive */
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 2vh;
+}
+
+}
