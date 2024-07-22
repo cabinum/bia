@@ -376,7 +376,6 @@ footer {
     margin: auto;
     width: 80%;
     background-color: lightcyan;
-    height: 300px;
     overflow-y: scroll;
     gap: 1vh;
     justify-content: unset;
